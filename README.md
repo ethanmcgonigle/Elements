@@ -1,3 +1,3 @@
 # Elements
 
-https://ethanmcgonigle.github.io/schoolenter.html
+https://ethanmcgonigle.github.io/elements/schoolenter.html
