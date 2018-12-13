@@ -1,0 +1,55 @@
+body.enter{
+    background-image: url(enterpage1.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-top: 403px;
+    left: 495px;
+    position: absolute;
+}
+
+.reveal-wrapper{
+    margin: 100px;
+    position: relative;
+    overflow: hidden;
+    width: 242px;
+    height: 125px;
+}
+
+.reveal-wrapper:hover .reveal-top{
+    transform: translateX(-100%);
+    transition: 2s ease;
+}
+
+.reveal-wrapper:hover .reveal-bottom{
+    transform: translateX(100%);
+    transition: 2s ease;
+}
+
+.reveal-content{
+    box-shadow: 1px 1px 5px rgba (0,0,0,0.5) inset;
+    padding: 100px;
+    color: black;
+    background: #fff;
+    text-align: center;
+}
+
+.reveal-top{
+    background: #55c4fc;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.reveal-bottom{
+    background: #55c4fc;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
